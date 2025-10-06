@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="home.html">CAteriNgz</a>
+        </div>
+        <div class="navbar">
+            <a href="home.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="testimonial.html">Testimonial</a>
+            <a href="about.html">About Us</a>
+        </div>
+        <div class="sign">
+            <a href="register.html">Register</a>
+        </div>
+        <div class="burger" >
+            <li onclick=showSide()>
+                <img src="Assets/icon/burger.png" alt="">
+            </li>
+        </div>
+        <div class="menu-drop">
+            <ul>
+                <li onclick=hideSide()><a href="#"><img src="Assets/icon/x.png" alt=""></a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="testimonial.html">Testimonial</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul> 
+        </div>
+    </header>
+    <main>
+        <div class="container-slide">
+            <div class="slider">
+                <button id="prev-slide" class="slide-button material-symbols-rounded">chevron_left</button>
+                <div class="img-list">
+                    <img src="Assets/About Us/image1.jpeg" alt="" class="img-item">
+                    <img src="Assets/About Us/image2.jpeg" alt="" class="img-item">
+                    <img src="Assets/About Us/image3.jpeg" alt="" class="img-item">
+                    <img src="Assets/About Us/image4.jpeg" alt="" class="img-item">
+                    <img src="Assets/About Us/image6.jpeg" alt="" class="img-item">
+                    <img src="Assets/About Us/image7.jpeg" alt="" class="img-item">
+                    <img src="Assets/About Us/image8.jpeg" alt="" class="img-item">
+                </div>
+                <button id="next-slide" class="slide-button material-symbols-rounded">chevron_right</button>
+            </div>
+            <div class="slide-scrollbar">
+                <div class="scrollbar-track">
+                    <div class="scrollbar-thumb">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <h1>
+                About Us
+            </h1>
+            <div class="about-content">
+                <h2>
+                    CAteriNgz is a homemade culinary that has become a go-to for great food at events in Jakarta, Bandung, and Malang. Our journey began in a small kitchen, and now we're known for creating delicious experiences at all kinds of gatherings. We're all about using the best ingredients. We get our stuff locally and use seasonal items to keep things fresh and sustainable. Our chefs work with local farmers and artisans to bring out the best flavors in every dish.
+                </h2>
+            </div>
+        </div>
+        <div class="mission-vision">
+            <div class="mission">
+                <h1>
+                    Our Mission
+                </h1>
+                <div class="mission-content">
+                    <h2>
+                        At Catheringz, our mission is to create memorable dining experiences that delight the senses and bring people together. We believe that every event, big or small, deserves the perfect blend of flavor, presentation, and service.
+                    </h2>
+                </div>
+            </div>
+            <div class="mission">
+                <h1>
+                    Our Vision
+                </h1>
+                <div class="mission-content">
+                    <h2>
+                        At Catheringz, our vision is to redefine the art of catering by consistently delivering exceptional culinary experiences that leave a lasting impression. We aspire to be the leading choice for catering services, known for our creativity, quality, and unwavering commitment to customer satisfaction. By continually innovating and elevating our offerings, we aim to set new standards in the industry and become a cherished partner in our clients' most memorable moments.
+                    </h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>CAteriNgz</h4>
+                    <ul>
+                        <li>
+                            Copyright ©2024 All right reserved
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Discover</h4>
+                    <ul>
+                        <li>
+                            <a href="home.html">Home</a>
+                            <a href="products.html">Products</a>
+                            <a href="testimonial.html">Testimonial</a>
+                            <a href="about.html">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>
+                            catheringz.food@gmail.com
+                        </li>
+                        <li>
+                            +62 8899 3205
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="media-link">
+                        <a href="https://www.instagram.com/">Instagram</a>
+                        <a href="https://www.facebook.com/">Facebook</a>
+                        <a href="https://www.tiktok.com/">Tiktok</a>
+                    </div>
+                </div>
+                    
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>
+
